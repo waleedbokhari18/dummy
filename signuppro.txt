@@ -1,0 +1,7 @@
+<?php
+$con=mysqli_connect('localhost','root','','lms');
+$name=$_GET['fname'].$_GET['lname'];
+$uname=$_GET['uname'];
+$password=md5[$_GET['psw']];
+
+?>
